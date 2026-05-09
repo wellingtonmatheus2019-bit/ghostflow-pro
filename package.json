@@ -1,0 +1,16 @@
+{
+  "name": "ghostflow-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared"
+  ],
+  "scripts": {
+    "frontend:dev": "npm run dev -w frontend",
+    "frontend:build": "npm run build -w frontend",
+    "backend:dev": "npm run dev -w backend",
+    "backend:build": "npm run build -w backend",
+    "backend:start": "npm run start -w backend"
+  }
+}
